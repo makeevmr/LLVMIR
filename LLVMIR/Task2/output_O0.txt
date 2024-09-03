@@ -1,0 +1,977 @@
+Phi nodes in function: main
+	Block %0
+		Phi nodes amount 0
+	Block %38
+		Phi nodes amount 0
+	Block %41
+		Phi nodes amount 0
+	Block %42
+		Phi nodes amount 0
+	Block %45
+		Phi nodes amount 0
+	Block %56
+		Phi nodes amount 0
+	Block %59
+		Phi nodes amount 0
+	Block %60
+		Phi nodes amount 0
+	Block %63
+		Phi nodes amount 0
+	Block %64
+		Phi nodes amount 0
+	Block %67
+		Phi nodes amount 0
+	Block %72
+		Phi nodes amount 0
+	Block %75
+		Phi nodes amount 0
+	Block %76
+		Phi nodes amount 0
+	Block %79
+		Phi nodes amount 0
+	Block %84
+		Phi nodes amount 0
+	Block %87
+		Phi nodes amount 0
+	Block %111
+		Phi nodes amount 0
+	Block %114
+		Phi nodes amount 0
+	Block %115
+		Phi nodes amount 0
+	Block %118
+		Phi nodes amount 0
+	Block %125
+		Phi nodes amount 0
+	Block %130
+		Phi nodes amount 0
+	Block %153
+		Phi nodes amount 0
+	Block %156
+		Phi nodes amount 0
+	Block %161
+		Phi nodes amount 0
+	Block %164
+		Phi nodes amount 0
+	Block %165
+		Phi nodes amount 0
+	Block %168
+		Phi nodes amount 0
+	Block %173
+		Phi nodes amount 0
+	Block %176
+		Phi nodes amount 0
+	Block %200
+		Phi nodes amount 0
+	Block %203
+		Phi nodes amount 0
+	Block %204
+		Phi nodes amount 0
+	Block %207
+		Phi nodes amount 0
+	Block %208
+		Phi nodes amount 0
+	Block %211
+		Phi nodes amount 0
+	Block %222
+		Phi nodes amount 0
+	Block %225
+		Phi nodes amount 0
+	Block %249
+		Phi nodes amount 0
+	Block %252
+		Phi nodes amount 0
+	Block %253
+		Phi nodes amount 0
+	Block %256
+		Phi nodes amount 0
+	Block %257
+		Phi nodes amount 0
+	Block %260
+		Phi nodes amount 0
+	Block %269
+		Phi nodes amount 0
+	Block %272
+		Phi nodes amount 0
+	Block %273
+		Phi nodes amount 0
+	Block %276
+		Phi nodes amount 0
+	Block %285
+		Phi nodes amount 0
+	Block %288
+		Phi nodes amount 0
+	Block %302
+		Phi nodes amount 0
+	Block %308
+		Phi nodes amount 0
+	Block %310
+		Phi nodes amount 0
+Local variables in function: main
+	Block %0
+		Variable with name "a" declared in IR as  %2 = alloca ptr, align 8
+		Variable with name "a_max" declared in IR as  %3 = alloca double, align 8
+		Variable with name "b" declared in IR as  %4 = alloca ptr, align 8
+		Variable with name "b_max" declared in IR as  %5 = alloca double, align 8
+		Variable with name "cray" declared in IR as  %6 = alloca double, align 8
+		Variable with name "eps" declared in IR as  %7 = alloca double, align 8
+		Variable with name "i" declared in IR as  %8 = alloca i32, align 4
+		Variable with name "info" declared in IR as  %9 = alloca i32, align 4
+		Variable with name "ipvt" declared in IR as  %10 = alloca ptr, align 8
+		Variable with name "j" declared in IR as  %11 = alloca i32, align 4
+		Variable with name "job" declared in IR as  %12 = alloca i32, align 4
+		Variable with name "ops" declared in IR as  %13 = alloca double, align 8
+		Variable with name "resid" declared in IR as  %14 = alloca ptr, align 8
+		Variable with name "resid_max" declared in IR as  %15 = alloca double, align 8
+		Variable with name "residn" declared in IR as  %16 = alloca double, align 8
+		Variable with name "rhs" declared in IR as  %17 = alloca ptr, align 8
+		Variable with name "t1" declared in IR as  %18 = alloca double, align 8
+		Variable with name "t2" declared in IR as  %19 = alloca double, align 8
+		Variable with name "time" declared in IR as  %20 = alloca [6 x double], align 16
+		Variable with name "total" declared in IR as  %21 = alloca double, align 8
+		Variable with name "x" declared in IR as  %22 = alloca ptr, align 8
+		Local variables amount: 21
+	Block %38
+		Local variables amount: 0
+	Block %41
+		Local variables amount: 0
+	Block %42
+		Local variables amount: 0
+	Block %45
+		Local variables amount: 0
+	Block %56
+		Local variables amount: 0
+	Block %59
+		Local variables amount: 0
+	Block %60
+		Local variables amount: 0
+	Block %63
+		Local variables amount: 0
+	Block %64
+		Local variables amount: 0
+	Block %67
+		Local variables amount: 0
+	Block %72
+		Local variables amount: 0
+	Block %75
+		Local variables amount: 0
+	Block %76
+		Local variables amount: 0
+	Block %79
+		Local variables amount: 0
+	Block %84
+		Local variables amount: 0
+	Block %87
+		Local variables amount: 0
+	Block %111
+		Local variables amount: 0
+	Block %114
+		Local variables amount: 0
+	Block %115
+		Local variables amount: 0
+	Block %118
+		Local variables amount: 0
+	Block %125
+		Local variables amount: 0
+	Block %130
+		Local variables amount: 0
+	Block %153
+		Local variables amount: 0
+	Block %156
+		Local variables amount: 0
+	Block %161
+		Local variables amount: 0
+	Block %164
+		Local variables amount: 0
+	Block %165
+		Local variables amount: 0
+	Block %168
+		Local variables amount: 0
+	Block %173
+		Local variables amount: 0
+	Block %176
+		Local variables amount: 0
+	Block %200
+		Local variables amount: 0
+	Block %203
+		Local variables amount: 0
+	Block %204
+		Local variables amount: 0
+	Block %207
+		Local variables amount: 0
+	Block %208
+		Local variables amount: 0
+	Block %211
+		Local variables amount: 0
+	Block %222
+		Local variables amount: 0
+	Block %225
+		Local variables amount: 0
+	Block %249
+		Local variables amount: 0
+	Block %252
+		Local variables amount: 0
+	Block %253
+		Local variables amount: 0
+	Block %256
+		Local variables amount: 0
+	Block %257
+		Local variables amount: 0
+	Block %260
+		Local variables amount: 0
+	Block %269
+		Local variables amount: 0
+	Block %272
+		Local variables amount: 0
+	Block %273
+		Local variables amount: 0
+	Block %276
+		Local variables amount: 0
+	Block %285
+		Local variables amount: 0
+	Block %288
+		Local variables amount: 0
+	Block %302
+		Local variables amount: 0
+	Block %308
+		Local variables amount: 0
+	Block %310
+		Local variables amount: 0
+Phi nodes in function: r8mat_gen
+	Block %2
+		Phi nodes amount 0
+	Block %15
+		Phi nodes amount 0
+	Block %19
+		Phi nodes amount 0
+	Block %20
+		Phi nodes amount 0
+	Block %24
+		Phi nodes amount 0
+	Block %38
+		Phi nodes amount 0
+	Block %41
+		Phi nodes amount 0
+	Block %42
+		Phi nodes amount 0
+	Block %45
+		Phi nodes amount 0
+Local variables in function: r8mat_gen
+	Block %2
+		Variable with name "lda" declared in IR as  %3 = alloca i32, align 4
+		Variable with name "n" declared in IR as  %4 = alloca i32, align 4
+		Variable with name "a" declared in IR as  %5 = alloca ptr, align 8
+		Variable with name "i" declared in IR as  %6 = alloca i32, align 4
+		Variable with name "init" declared in IR as  %7 = alloca [4 x i32], align 16
+		Variable with name "j" declared in IR as  %8 = alloca i32, align 4
+		Local variables amount: 6
+	Block %15
+		Local variables amount: 0
+	Block %19
+		Local variables amount: 0
+	Block %20
+		Local variables amount: 0
+	Block %24
+		Local variables amount: 0
+	Block %38
+		Local variables amount: 0
+	Block %41
+		Local variables amount: 0
+	Block %42
+		Local variables amount: 0
+	Block %45
+		Local variables amount: 0
+Phi nodes in function: r8_max
+	Block %2
+		Phi nodes amount 0
+	Block %9
+		Phi nodes amount 0
+	Block %11
+		Phi nodes amount 0
+	Block %13
+		Phi nodes amount 0
+Local variables in function: r8_max
+	Block %2
+		Variable with name "x" declared in IR as  %3 = alloca double, align 8
+		Variable with name "y" declared in IR as  %4 = alloca double, align 8
+		Variable with name "value" declared in IR as  %5 = alloca double, align 8
+		Local variables amount: 3
+	Block %9
+		Local variables amount: 0
+	Block %11
+		Local variables amount: 0
+	Block %13
+		Local variables amount: 0
+Phi nodes in function: dgefa
+	Block %4
+		Phi nodes amount 0
+	Block %14
+		Phi nodes amount 0
+	Block %19
+		Phi nodes amount 0
+	Block %57
+		Phi nodes amount 0
+	Block %59
+		Phi nodes amount 0
+	Block %63
+		Phi nodes amount 0
+	Block %107
+		Phi nodes amount 0
+	Block %136
+		Phi nodes amount 0
+	Block %140
+		Phi nodes amount 0
+	Block %155
+		Phi nodes amount 0
+	Block %188
+		Phi nodes amount 0
+	Block %213
+		Phi nodes amount 0
+	Block %216
+		Phi nodes amount 0
+	Block %217
+		Phi nodes amount 0
+	Block %220
+		Phi nodes amount 0
+	Block %239
+		Phi nodes amount 0
+	Block %241
+		Phi nodes amount 0
+Local variables in function: dgefa
+	Block %4
+		Variable with name "a" declared in IR as  %5 = alloca ptr, align 8
+		Variable with name "lda" declared in IR as  %6 = alloca i32, align 4
+		Variable with name "n" declared in IR as  %7 = alloca i32, align 4
+		Variable with name "ipvt" declared in IR as  %8 = alloca ptr, align 8
+		Variable with name "info" declared in IR as  %9 = alloca i32, align 4
+		Variable with name "j" declared in IR as  %10 = alloca i32, align 4
+		Variable with name "k" declared in IR as  %11 = alloca i32, align 4
+		Variable with name "l" declared in IR as  %12 = alloca i32, align 4
+		Variable with name "t" declared in IR as  %13 = alloca double, align 8
+		Local variables amount: 9
+	Block %14
+		Local variables amount: 0
+	Block %19
+		Local variables amount: 0
+	Block %57
+		Local variables amount: 0
+	Block %59
+		Local variables amount: 0
+	Block %63
+		Local variables amount: 0
+	Block %107
+		Local variables amount: 0
+	Block %136
+		Local variables amount: 0
+	Block %140
+		Local variables amount: 0
+	Block %155
+		Local variables amount: 0
+	Block %188
+		Local variables amount: 0
+	Block %213
+		Local variables amount: 0
+	Block %216
+		Local variables amount: 0
+	Block %217
+		Local variables amount: 0
+	Block %220
+		Local variables amount: 0
+	Block %239
+		Local variables amount: 0
+	Block %241
+		Local variables amount: 0
+Phi nodes in function: dgesl
+	Block %6
+		Phi nodes amount 0
+	Block %18
+		Phi nodes amount 0
+	Block %19
+		Phi nodes amount 0
+	Block %24
+		Phi nodes amount 0
+	Block %40
+		Phi nodes amount 0
+	Block %58
+		Phi nodes amount 0
+	Block %77
+		Phi nodes amount 0
+	Block %80
+		Phi nodes amount 0
+	Block %82
+		Phi nodes amount 0
+	Block %85
+		Phi nodes amount 0
+	Block %128
+		Phi nodes amount 0
+	Block %131
+		Phi nodes amount 0
+	Block %132
+		Phi nodes amount 0
+	Block %133
+		Phi nodes amount 0
+	Block %137
+		Phi nodes amount 0
+	Block %175
+		Phi nodes amount 0
+	Block %178
+		Phi nodes amount 0
+	Block %181
+		Phi nodes amount 0
+	Block %184
+		Phi nodes amount 0
+	Block %224
+		Phi nodes amount 0
+	Block %248
+		Phi nodes amount 0
+	Block %249
+		Phi nodes amount 0
+	Block %252
+		Phi nodes amount 0
+	Block %253
+		Phi nodes amount 0
+Local variables in function: dgesl
+	Block %6
+		Variable with name "a" declared in IR as  %7 = alloca ptr, align 8
+		Variable with name "lda" declared in IR as  %8 = alloca i32, align 4
+		Variable with name "n" declared in IR as  %9 = alloca i32, align 4
+		Variable with name "ipvt" declared in IR as  %10 = alloca ptr, align 8
+		Variable with name "b" declared in IR as  %11 = alloca ptr, align 8
+		Variable with name "job" declared in IR as  %12 = alloca i32, align 4
+		Variable with name "k" declared in IR as  %13 = alloca i32, align 4
+		Variable with name "l" declared in IR as  %14 = alloca i32, align 4
+		Variable with name "t" declared in IR as  %15 = alloca double, align 8
+		Local variables amount: 9
+	Block %18
+		Local variables amount: 0
+	Block %19
+		Local variables amount: 0
+	Block %24
+		Local variables amount: 0
+	Block %40
+		Local variables amount: 0
+	Block %58
+		Local variables amount: 0
+	Block %77
+		Local variables amount: 0
+	Block %80
+		Local variables amount: 0
+	Block %82
+		Local variables amount: 0
+	Block %85
+		Local variables amount: 0
+	Block %128
+		Local variables amount: 0
+	Block %131
+		Local variables amount: 0
+	Block %132
+		Local variables amount: 0
+	Block %133
+		Local variables amount: 0
+	Block %137
+		Local variables amount: 0
+	Block %175
+		Local variables amount: 0
+	Block %178
+		Local variables amount: 0
+	Block %181
+		Local variables amount: 0
+	Block %184
+		Local variables amount: 0
+	Block %224
+		Local variables amount: 0
+	Block %248
+		Local variables amount: 0
+	Block %249
+		Local variables amount: 0
+	Block %252
+		Local variables amount: 0
+	Block %253
+		Local variables amount: 0
+Phi nodes in function: r8_abs
+	Block %1
+		Phi nodes amount 0
+	Block %6
+		Phi nodes amount 0
+	Block %8
+		Phi nodes amount 0
+	Block %11
+		Phi nodes amount 0
+Local variables in function: r8_abs
+	Block %1
+		Variable with name "x" declared in IR as  %2 = alloca double, align 8
+		Variable with name "value" declared in IR as  %3 = alloca double, align 8
+		Local variables amount: 2
+	Block %6
+		Local variables amount: 0
+	Block %8
+		Local variables amount: 0
+	Block %11
+		Local variables amount: 0
+Phi nodes in function: cpu_time
+	Block %0
+		Phi nodes amount 0
+Local variables in function: cpu_time
+	Block %0
+		Variable with name "value" declared in IR as  %1 = alloca double, align 8
+		Local variables amount: 1
+Phi nodes in function: daxpy
+	Block %6
+		Phi nodes amount 0
+	Block %19
+		Phi nodes amount 0
+	Block %20
+		Phi nodes amount 0
+	Block %23
+		Phi nodes amount 0
+	Block %24
+		Phi nodes amount 0
+	Block %27
+		Phi nodes amount 0
+	Block %30
+		Phi nodes amount 0
+	Block %33
+		Phi nodes amount 0
+	Block %34
+		Phi nodes amount 0
+	Block %40
+		Phi nodes amount 0
+	Block %43
+		Phi nodes amount 0
+	Block %44
+		Phi nodes amount 0
+	Block %50
+		Phi nodes amount 0
+	Block %51
+		Phi nodes amount 0
+	Block %55
+		Phi nodes amount 0
+	Block %78
+		Phi nodes amount 0
+	Block %81
+		Phi nodes amount 0
+	Block %82
+		Phi nodes amount 0
+	Block %85
+		Phi nodes amount 0
+	Block %89
+		Phi nodes amount 0
+	Block %106
+		Phi nodes amount 0
+	Block %109
+		Phi nodes amount 0
+	Block %111
+		Phi nodes amount 0
+	Block %115
+		Phi nodes amount 0
+	Block %189
+		Phi nodes amount 0
+	Block %192
+		Phi nodes amount 0
+	Block %193
+		Phi nodes amount 0
+	Block %194
+		Phi nodes amount 0
+Local variables in function: daxpy
+	Block %6
+		Variable with name "n" declared in IR as  %7 = alloca i32, align 4
+		Variable with name "da" declared in IR as  %8 = alloca double, align 8
+		Variable with name "dx" declared in IR as  %9 = alloca ptr, align 8
+		Variable with name "incx" declared in IR as  %10 = alloca i32, align 4
+		Variable with name "dy" declared in IR as  %11 = alloca ptr, align 8
+		Variable with name "incy" declared in IR as  %12 = alloca i32, align 4
+		Variable with name "i" declared in IR as  %13 = alloca i32, align 4
+		Variable with name "ix" declared in IR as  %14 = alloca i32, align 4
+		Variable with name "iy" declared in IR as  %15 = alloca i32, align 4
+		Variable with name "m" declared in IR as  %16 = alloca i32, align 4
+		Local variables amount: 10
+	Block %19
+		Local variables amount: 0
+	Block %20
+		Local variables amount: 0
+	Block %23
+		Local variables amount: 0
+	Block %24
+		Local variables amount: 0
+	Block %27
+		Local variables amount: 0
+	Block %30
+		Local variables amount: 0
+	Block %33
+		Local variables amount: 0
+	Block %34
+		Local variables amount: 0
+	Block %40
+		Local variables amount: 0
+	Block %43
+		Local variables amount: 0
+	Block %44
+		Local variables amount: 0
+	Block %50
+		Local variables amount: 0
+	Block %51
+		Local variables amount: 0
+	Block %55
+		Local variables amount: 0
+	Block %78
+		Local variables amount: 0
+	Block %81
+		Local variables amount: 0
+	Block %82
+		Local variables amount: 0
+	Block %85
+		Local variables amount: 0
+	Block %89
+		Local variables amount: 0
+	Block %106
+		Local variables amount: 0
+	Block %109
+		Local variables amount: 0
+	Block %111
+		Local variables amount: 0
+	Block %115
+		Local variables amount: 0
+	Block %189
+		Local variables amount: 0
+	Block %192
+		Local variables amount: 0
+	Block %193
+		Local variables amount: 0
+	Block %194
+		Local variables amount: 0
+Phi nodes in function: ddot
+	Block %5
+		Phi nodes amount 0
+	Block %19
+		Phi nodes amount 0
+	Block %21
+		Phi nodes amount 0
+	Block %24
+		Phi nodes amount 0
+	Block %27
+		Phi nodes amount 0
+	Block %30
+		Phi nodes amount 0
+	Block %31
+		Phi nodes amount 0
+	Block %37
+		Phi nodes amount 0
+	Block %40
+		Phi nodes amount 0
+	Block %41
+		Phi nodes amount 0
+	Block %47
+		Phi nodes amount 0
+	Block %48
+		Phi nodes amount 0
+	Block %52
+		Phi nodes amount 0
+	Block %71
+		Phi nodes amount 0
+	Block %74
+		Phi nodes amount 0
+	Block %75
+		Phi nodes amount 0
+	Block %78
+		Phi nodes amount 0
+	Block %82
+		Phi nodes amount 0
+	Block %95
+		Phi nodes amount 0
+	Block %98
+		Phi nodes amount 0
+	Block %100
+		Phi nodes amount 0
+	Block %104
+		Phi nodes amount 0
+	Block %169
+		Phi nodes amount 0
+	Block %172
+		Phi nodes amount 0
+	Block %173
+		Phi nodes amount 0
+	Block %175
+		Phi nodes amount 0
+Local variables in function: ddot
+	Block %5
+		Variable with name "n" declared in IR as  %7 = alloca i32, align 4
+		Variable with name "dx" declared in IR as  %8 = alloca ptr, align 8
+		Variable with name "incx" declared in IR as  %9 = alloca i32, align 4
+		Variable with name "dy" declared in IR as  %10 = alloca ptr, align 8
+		Variable with name "incy" declared in IR as  %11 = alloca i32, align 4
+		Variable with name "dtemp" declared in IR as  %12 = alloca double, align 8
+		Variable with name "i" declared in IR as  %13 = alloca i32, align 4
+		Variable with name "ix" declared in IR as  %14 = alloca i32, align 4
+		Variable with name "iy" declared in IR as  %15 = alloca i32, align 4
+		Variable with name "m" declared in IR as  %16 = alloca i32, align 4
+		Local variables amount: 10
+	Block %19
+		Local variables amount: 0
+	Block %21
+		Local variables amount: 0
+	Block %24
+		Local variables amount: 0
+	Block %27
+		Local variables amount: 0
+	Block %30
+		Local variables amount: 0
+	Block %31
+		Local variables amount: 0
+	Block %37
+		Local variables amount: 0
+	Block %40
+		Local variables amount: 0
+	Block %41
+		Local variables amount: 0
+	Block %47
+		Local variables amount: 0
+	Block %48
+		Local variables amount: 0
+	Block %52
+		Local variables amount: 0
+	Block %71
+		Local variables amount: 0
+	Block %74
+		Local variables amount: 0
+	Block %75
+		Local variables amount: 0
+	Block %78
+		Local variables amount: 0
+	Block %82
+		Local variables amount: 0
+	Block %95
+		Local variables amount: 0
+	Block %98
+		Local variables amount: 0
+	Block %100
+		Local variables amount: 0
+	Block %104
+		Local variables amount: 0
+	Block %169
+		Local variables amount: 0
+	Block %172
+		Local variables amount: 0
+	Block %173
+		Local variables amount: 0
+	Block %175
+		Local variables amount: 0
+Phi nodes in function: idamax
+	Block %3
+		Phi nodes amount 0
+	Block %14
+		Phi nodes amount 0
+	Block %17
+		Phi nodes amount 0
+	Block %19
+		Phi nodes amount 0
+	Block %22
+		Phi nodes amount 0
+	Block %24
+		Phi nodes amount 0
+	Block %27
+		Phi nodes amount 0
+	Block %32
+		Phi nodes amount 0
+	Block %36
+		Phi nodes amount 0
+	Block %45
+		Phi nodes amount 0
+	Block %54
+		Phi nodes amount 0
+	Block %55
+		Phi nodes amount 0
+	Block %58
+		Phi nodes amount 0
+	Block %59
+		Phi nodes amount 0
+	Block %67
+		Phi nodes amount 0
+	Block %71
+		Phi nodes amount 0
+	Block %80
+		Phi nodes amount 0
+	Block %89
+		Phi nodes amount 0
+	Block %93
+		Phi nodes amount 0
+	Block %96
+		Phi nodes amount 0
+	Block %97
+		Phi nodes amount 0
+	Block %99
+		Phi nodes amount 0
+Local variables in function: idamax
+	Block %3
+		Variable with name "n" declared in IR as  %5 = alloca i32, align 4
+		Variable with name "dx" declared in IR as  %6 = alloca ptr, align 8
+		Variable with name "incx" declared in IR as  %7 = alloca i32, align 4
+		Variable with name "dmax" declared in IR as  %8 = alloca double, align 8
+		Variable with name "i" declared in IR as  %9 = alloca i32, align 4
+		Variable with name "ix" declared in IR as  %10 = alloca i32, align 4
+		Variable with name "value" declared in IR as  %11 = alloca i32, align 4
+		Local variables amount: 7
+	Block %14
+		Local variables amount: 0
+	Block %17
+		Local variables amount: 0
+	Block %19
+		Local variables amount: 0
+	Block %22
+		Local variables amount: 0
+	Block %24
+		Local variables amount: 0
+	Block %27
+		Local variables amount: 0
+	Block %32
+		Local variables amount: 0
+	Block %36
+		Local variables amount: 0
+	Block %45
+		Local variables amount: 0
+	Block %54
+		Local variables amount: 0
+	Block %55
+		Local variables amount: 0
+	Block %58
+		Local variables amount: 0
+	Block %59
+		Local variables amount: 0
+	Block %67
+		Local variables amount: 0
+	Block %71
+		Local variables amount: 0
+	Block %80
+		Local variables amount: 0
+	Block %89
+		Local variables amount: 0
+	Block %93
+		Local variables amount: 0
+	Block %96
+		Local variables amount: 0
+	Block %97
+		Local variables amount: 0
+	Block %99
+		Local variables amount: 0
+Phi nodes in function: dscal
+	Block %4
+		Phi nodes amount 0
+	Block %14
+		Phi nodes amount 0
+	Block %15
+		Phi nodes amount 0
+	Block %18
+		Phi nodes amount 0
+	Block %21
+		Phi nodes amount 0
+	Block %25
+		Phi nodes amount 0
+	Block %37
+		Phi nodes amount 0
+	Block %40
+		Phi nodes amount 0
+	Block %42
+		Phi nodes amount 0
+	Block %46
+		Phi nodes amount 0
+	Block %110
+		Phi nodes amount 0
+	Block %113
+		Phi nodes amount 0
+	Block %114
+		Phi nodes amount 0
+	Block %117
+		Phi nodes amount 0
+	Block %118
+		Phi nodes amount 0
+	Block %124
+		Phi nodes amount 0
+	Block %125
+		Phi nodes amount 0
+	Block %129
+		Phi nodes amount 0
+	Block %144
+		Phi nodes amount 0
+	Block %147
+		Phi nodes amount 0
+	Block %148
+		Phi nodes amount 0
+	Block %149
+		Phi nodes amount 0
+Local variables in function: dscal
+	Block %4
+		Variable with name "n" declared in IR as  %5 = alloca i32, align 4
+		Variable with name "sa" declared in IR as  %6 = alloca double, align 8
+		Variable with name "x" declared in IR as  %7 = alloca ptr, align 8
+		Variable with name "incx" declared in IR as  %8 = alloca i32, align 4
+		Variable with name "i" declared in IR as  %9 = alloca i32, align 4
+		Variable with name "ix" declared in IR as  %10 = alloca i32, align 4
+		Variable with name "m" declared in IR as  %11 = alloca i32, align 4
+		Local variables amount: 7
+	Block %14
+		Local variables amount: 0
+	Block %15
+		Local variables amount: 0
+	Block %18
+		Local variables amount: 0
+	Block %21
+		Local variables amount: 0
+	Block %25
+		Local variables amount: 0
+	Block %37
+		Local variables amount: 0
+	Block %40
+		Local variables amount: 0
+	Block %42
+		Local variables amount: 0
+	Block %46
+		Local variables amount: 0
+	Block %110
+		Local variables amount: 0
+	Block %113
+		Local variables amount: 0
+	Block %114
+		Local variables amount: 0
+	Block %117
+		Local variables amount: 0
+	Block %118
+		Local variables amount: 0
+	Block %124
+		Local variables amount: 0
+	Block %125
+		Local variables amount: 0
+	Block %129
+		Local variables amount: 0
+	Block %144
+		Local variables amount: 0
+	Block %147
+		Local variables amount: 0
+	Block %148
+		Local variables amount: 0
+	Block %149
+		Local variables amount: 0
+Phi nodes in function: r8_epsilon
+	Block %0
+		Phi nodes amount 0
+Local variables in function: r8_epsilon
+	Block %0
+		Variable with name "value" declared in IR as  %1 = alloca double, align 8
+		Local variables amount: 1
+Phi nodes in function: r8_random
+	Block %1
+		Phi nodes amount 0
+Local variables in function: r8_random
+	Block %1
+		Variable with name "iseed" declared in IR as  %2 = alloca ptr, align 8
+		Variable with name "ipw2" declared in IR as  %3 = alloca i32, align 4
+		Variable with name "it1" declared in IR as  %4 = alloca i32, align 4
+		Variable with name "it2" declared in IR as  %5 = alloca i32, align 4
+		Variable with name "it3" declared in IR as  %6 = alloca i32, align 4
+		Variable with name "it4" declared in IR as  %7 = alloca i32, align 4
+		Variable with name "m1" declared in IR as  %8 = alloca i32, align 4
+		Variable with name "m2" declared in IR as  %9 = alloca i32, align 4
+		Variable with name "m3" declared in IR as  %10 = alloca i32, align 4
+		Variable with name "m4" declared in IR as  %11 = alloca i32, align 4
+		Variable with name "one" declared in IR as  %12 = alloca double, align 8
+		Variable with name "r" declared in IR as  %13 = alloca double, align 8
+		Variable with name "value" declared in IR as  %14 = alloca double, align 8
+		Local variables amount: 13

@@ -1,0 +1,79 @@
+Number of functions: 21
+main
+printf
+r8mat_gen
+malloc
+r8_max
+llvm.fmuladd.f64
+dgefa
+exit
+dgesl
+free
+r8_abs
+cpu_time
+clock
+daxpy
+ddot
+idamax
+dscal
+r8_epsilon
+r8_random
+putchar
+puts
+Function main has 19 branch instructions
+Length of loop: 10
+Length of loop: 18
+Length of loop: 6
+Length of loop: 12
+Length of loop: 21
+Length of loop: 6
+Length of loop: 12
+Length of loop: 21
+Length of loop: 12
+Length of loop: 24
+Length of loop: 12
+Length of loop: 12
+Function r8mat_gen has 5 branch instructions
+Length of loop: 51
+Length of loop: 67
+Function r8_max has 0 branch instructions
+Function dgefa has 25 branch instructions
+Length of loop: 15
+Length of loop: 8
+Length of loop: 30
+Length of loop: 10
+Length of loop: 31
+Length of loop: 66
+Length of loop: 191
+Function dgesl has 44 branch instructions
+Length of loop: 10
+Length of loop: 36
+Length of loop: 80
+Length of loop: 10
+Length of loop: 36
+Length of loop: 89
+Length of loop: 10
+Length of loop: 31
+Length of loop: 80
+Length of loop: 10
+Length of loop: 31
+Length of loop: 73
+Function r8_abs has 0 branch instructions
+Function cpu_time has 0 branch instructions
+Function daxpy has 11 branch instructions
+Length of loop: 10
+Length of loop: 31
+Length of loop: 14
+Function ddot has 11 branch instructions
+Length of loop: 10
+Length of loop: 35
+Length of loop: 14
+Function idamax has 9 branch instructions
+Length of loop: 17
+Length of loop: 15
+Function dscal has 11 branch instructions
+Length of loop: 10
+Length of loop: 8
+Length of loop: 29
+Function r8_epsilon has 0 branch instructions
+Function r8_random has 0 branch instructions
